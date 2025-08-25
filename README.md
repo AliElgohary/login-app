@@ -47,6 +47,13 @@
    npm start
    ```
 
+### Start Script
+
+1. Installs dependencies for backend and frontend (if not installed) and Starts both in development mode.
+   ```bash
+   ./start.sh
+   ```
+
 ## API Endpoints
 
 ### Authentication
@@ -54,8 +61,7 @@
 - `POST /auth/signin` - User authentication
 
 ### Users (Protected)
-- `GET /users/profile` - Get user profile
-- `GET /users/me` - Get all users (admin only)
+- `GET /users/me` - Get all users
 
 ## API Documentation
 
