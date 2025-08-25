@@ -1,3 +1,14 @@
+# Login Frontend
+
+## Quick Start
+
+Create a `.env` file in the backend directory:
+
+```env
+REACT_APP_API_URL=http://localhost:3000
+```
+
+
 ### Installation
 
 1. Navigate to the frontend directory:
